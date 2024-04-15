@@ -38,6 +38,7 @@
 		return;
 	}
 
+	
 	// Function to parse the config file at the beginning of the program
 	void ParseConfigFile(string configFileName, string &regionFileName, int &timeLimit, int &refreshRate) {
 		ifstream configStream;
