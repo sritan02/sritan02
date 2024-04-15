@@ -24,7 +24,6 @@
 		}
 		return str;
 	}
-
 	// Function to parse a region line from a CSV file and create Hyderabad objects
 	void ParseRegionLine(string &regionLine, vector<Hyderabad> &row) {
 		for (size_t i = 0; i < regionLine.length(); i++) {
