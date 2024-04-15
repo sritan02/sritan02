@@ -1,7 +1,6 @@
 #include "residential.h"
 #include "main.h"
 #include "analysis.h"
-
 Hyderabad residentialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> >& Region, int x, int y) {
     Hyderabad newCity = city;
 
