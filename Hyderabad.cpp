@@ -53,7 +53,7 @@ int Hyderabad::getPopulation() {
 void Hyderabad::updatePopulation() {
     population++;
 }
-
+//check the powerline
 bool Hyderabad::isPowerline() {
 	return (type == 'T' || type == '#');
 }
