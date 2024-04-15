@@ -20,7 +20,7 @@ bool isAdjacentToPowerline(std::vector<std::vector<Hyderabad> >& Region, int x, 
     }
 	return isAdjacent;
 }
-
+//Funtion to decide the count adjacent of the population
 int countAdjacentOfPopulation(std::vector<std::vector<Hyderabad> >& Region, int x, int y, int population) {
     int count = 0;
 
