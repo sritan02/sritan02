@@ -60,13 +60,13 @@ Hyderabad industrialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> 
     Hyderabad newCity = city;
 
     if (city.getPopulation() == 0) {
-        if (isAdjacentToPowerline(Region, x, y) /*&& available workers >= 2*/) {
+        if (isAdjacentToPowerline(Region, x, y) ) {
             newCity.updatePopulation();
             //assign available workers to this cells and subtract them from the total
             //get population value of new city and set it equal to goods
             return newCity;
         }
-        else if (countAdjacentOfPopulation(Region, x, y, 1) >= 1 /*&& available workers >= 2*/) {
+        else if (countAdjacentOfPopulation(Region, x, y, 1) >= 1 ) {
             newCity.updatePopulation();
             //assign available workers to this cells and subtract them from the total
             //assign available workers to this cell
@@ -74,13 +74,13 @@ Hyderabad industrialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> 
         }
         return newCity;
     }
-    else if (city.getPopulation() == 1 && countAdjacentOfPopulation(Region, x, y, 1) >= 2 /*&& available workers >= 2*/) {
+    else if (city.getPopulation() == 1 && countAdjacentOfPopulation(Region, x, y, 1) >= 2 ) {
         newCity.updatePopulation();
         //assign available workers to this cells and subtract them from the total
         //assign available workers to this cell
         return newCity;
     }
-    else if (city.getPopulation() == 2 && countAdjacentOfPopulation(Region, x, y, 2) >= 4 /*available workers >= 2*/) {
+    else if (city.getPopulation() == 2 && countAdjacentOfPopulation(Region, x, y, 2) >= 4 ) {
         newCity.updatePopulation();
         //assign available workers to this cells and subtract them from the total
         //assign available workers to this cell
