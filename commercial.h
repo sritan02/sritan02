@@ -4,7 +4,7 @@
 #include "Hyderabad.h"
 #include "main.h"
 
-// Helper function to check if the cell is adjacent to a powerline
+// redeclaring function to check if the cell is adjacent to a powerline
 bool isAdjacentToPowerline(std::vector<std::vector<Hyderabad> >& Region, int x, int y);
 
 // Function to count adjacent cells of a certain population or more
