@@ -5,19 +5,19 @@ Hyderabad commercialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> 
     Hyderabad newCity = city;
 
     if (city.getPopulation() == 0) {
-        if (isAdjacentToPowerline(Region, x, y)/* && city.getWorkers() >= 1 && city.getGoods() >= 1*/) {
+        if (isAdjacentToPowerline(Region, x, y)) {
             newCity.updatePopulation();
 
             return newCity;
         }
         return newCity;
     }
-    else if (city.getPopulation() == 0 && countAdjacentOfPopulation(Region, x, y, 1) >= 2/* && city.getWorkers() >= 1 && city.getGoods() >= 1*/) {
+    else if (city.getPopulation() == 0 && countAdjacentOfPopulation(Region, x, y, 1) >= 2) {
         newCity.updatePopulation();
 
         return newCity;
     }
-    else if (city.getPopulation() == 1 && countAdjacentOfPopulation(Region, x, y, 2) >= 4/* && city.getWorkers() >= 1 && city.getGoods() >= 1*/) {
+    else if (city.getPopulation() == 1 && countAdjacentOfPopulation(Region, x, y, 2) >= 4) {
         newCity.updatePopulation();
 
         return newCity;
