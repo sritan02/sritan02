@@ -9,7 +9,8 @@ Hyderabad residentialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad>
             newCity.updatePopulation();
 			return newCity;
         }
-		return newCity;	
+		
+        return newCity;	
     } else if (city.getPopulation() == 1 && countAdjacentOfPopulation(Region, x, y, 1) >= 2) {
         newCity.updatePopulation();
 		return newCity;
