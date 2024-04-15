@@ -22,8 +22,6 @@ void calculatePollution(std::vector<std::vector<Hyderabad> >& Region, int x, int
         }
     }
 }
-//In this function, we first calculate the pollution generated in the current cell based on its population.Then, we iterate through the adjacent cells and spread the pollution to them at a rate of one less unit of pollution per cell away from the source cell.The addPollution function is assumed to be part of the CookieCity class to update the pollution level in a cell.Make sure to implement this function in your CookieCity class if it's not already there.
-
 
 
 // Function to handle the generation and distribution of goods from industrial zones

@@ -44,7 +44,7 @@ public:
 	void assignGoods();
 	
 
-private:
+private: //declaring the class members private
     char type = '\0';
     int pollution = 0;
     int workers = 0;

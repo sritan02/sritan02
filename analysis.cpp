@@ -5,7 +5,6 @@ bool isAdjacentToPowerline(std::vector<std::vector<Hyderabad> >& Region, int x, 
     int directions[8][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}, {-1, -1}, {-1, 1}, {1, -1}, {1, 1}};
 	bool isAdjacent = false;
 
-//DEBUG	cout << "BASE :[" << y << ", " << x << "] " << Region[x][y].getType() << endl;
 	
 	for (int i = 0; i < 8; i++) {
 		
@@ -13,7 +12,6 @@ bool isAdjacentToPowerline(std::vector<std::vector<Hyderabad> >& Region, int x, 
         int newY = y + directions[i][1];
 		if ((newY < Region.size() && newY >= 0) && (newX >= 0 && newX < Region.size())) {
 
-//DEBUG		cout << "CheckingType :[" << newY << ", " << newX << "] " << Region[newX][newY].getType() << endl;
 
 			if (Region[newX][newY].isPowerline()) {
 				isAdjacent = true;

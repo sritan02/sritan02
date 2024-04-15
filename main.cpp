@@ -20,7 +20,7 @@ void Print(int loop_value, vector<vector<Hyderabad> > &region) {
         }
         cout << endl;
     }
-    cout << endl << "Timestep " << loop_value << " Pollution: " << GetTotalPollution(region);
+    cout << endl << "Timestep " << loop_value << " Pollution: " << GetTotalPollution(region); //Printing the timestep and pollution
 }
 
 

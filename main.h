@@ -11,6 +11,6 @@
 #include "init.h"
 using namespace std;
 
-int main();
+int main(); //declaring the main function
 
 #endif

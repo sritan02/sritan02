@@ -133,7 +133,6 @@
 		cout << "Time Limit: " << timeLimit << endl;
 		cout << "Refresh Rate: " << refreshRate << endl << endl;
 
-		// PRINT INITIAL REGION STATE
 		vector<vector<Hyderabad> >::iterator iter_rows;
 		vector<Hyderabad>::iterator iter_cols;
 		for (iter_rows = Region.begin(); iter_rows != Region.end(); iter_rows++) {

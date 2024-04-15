@@ -4,7 +4,7 @@
 Hyderabad residentialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> >& Region, int x, int y) {
     Hyderabad newCity = city;
 
-    if (city.getPopulation() == 0) {
+    if (city.getPopulation() == 0) { //checking if the population is 0
         if (isAdjacentToPowerline(Region, x, y)  || countAdjacentOfPopulation(Region, x, y, 1) >= 1) {
             newCity.updatePopulation();
 			return newCity;
