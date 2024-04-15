@@ -39,7 +39,7 @@ int main() {
 			 Print(i, Region);
 		}
 		
-		Simulation(mapKey, Region);
+		Simulation(mapKey, Region);//Calling the function 
 		initial++;
 	}
     return 0;
