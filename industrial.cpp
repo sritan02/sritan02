@@ -90,7 +90,5 @@ Hyderabad industrialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> 
     }
 
 
-   
-
     return newCity;
 }
