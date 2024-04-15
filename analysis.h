@@ -6,9 +6,9 @@
 #include "Hyderabad.h"
 #include <vector>
 
-//declaring the functions here
+//redeclaring the function with the parameters
 bool isAdjacentToPowerline(std::vector<std::vector<Hyderabad> >& Region, int x, int y);
-
+//declaring the count the adjacent population here
 int countAdjacentOfPopulation(std::vector<std::vector<Hyderabad> >& Region, int x, int y, int population);
 
 #endif
