@@ -178,7 +178,7 @@
 	int colIndex = 0;
 
 	for (auto& row : mapKey) {
-		colIndex = 0;
+		   colIndex = 0;
 		for (auto& city : row) {
 			if (city == 1) {
 				Region[rowIndex][colIndex] = residentialProcess(Region[rowIndex][colIndex], Region, rowIndex, colIndex);
