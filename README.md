@@ -1,6 +1,6 @@
-# Sim City Simulation
+# Hyderabad City Simulation
 
-This project is a simulation of Sim City, where you can manage and monitor the growth and pollution of a virtual city.
+This project-2 is a simulation of Sim City, where you can manage and monitor the growth and pollution of a virtual city.
 
 ## Group Members
 
