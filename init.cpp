@@ -171,7 +171,7 @@
 
 	}
 
-
+//declaring the simulation function of void type 
 	void Simulation(vector<vector<int> > mapKey, vector<vector<Hyderabad> > &Region) {
 		
 	int rowIndex = 0;
