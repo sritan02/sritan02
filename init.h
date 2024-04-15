@@ -22,6 +22,7 @@ int GetTotalPollution(vector<vector<Hyderabad> > &Region);
 // Main initialization function
 void Initialize(vector<vector<Hyderabad> > &Region, int &timeLimit, int &refreshRate, vector<vector<int> > &mapKey);
 //function to check the simulation
+
 void Simulation(vector<vector<int> > mapKey, vector<vector<Hyderabad> > &Region);
 // Function to find adjacent tiles in the region
 void FindAdjacentTiles(vector<vector<Hyderabad> > &vect);
