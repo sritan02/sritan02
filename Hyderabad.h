@@ -37,10 +37,10 @@ public:
 	// Check if adjacent file is powerline
 	bool isPowerline();
 	
-	// Assign worker to CookieCity element
+	// Assign worker to HyderabadCity element
 	void assignWorker();
 	
-	// Assign good to CookieCity element
+	// Assign good to HyderbadCity element
 	void assignGoods();
 	
 
