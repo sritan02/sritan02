@@ -8,7 +8,7 @@
 void calculatePollution(std::vector<std::vector<Hyderabad> >& Region, int x, int y);
 // Function to control the generation and distribution of goods from industrial zones
 void generateAndDistributeGoods(std::vector<std::vector<Hyderabad> >& Region, int x, int y, vector<vector<int> > mapKey);
-// Main processing function for an industrial zone
+//Function for an industrial zone
 Hyderabad industrialProcess(Hyderabad& city, std::vector<std::vector<Hyderabad> >& Region, int x, int y);
 
 #endif
