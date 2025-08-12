@@ -11,6 +11,7 @@ AI/ML Expertise: Large Language Models (LLMs), Generative AI, Retrieval-Augmente
 Other Skills: Data Structures & Algorithms, OOP, Cross-platform Development (MacOS/Windows/Linux), Microsoft Office
 
 📂 Highlighted Projects
+
 AI-Powered Investment Advice Generator
 Fine-tuned BART & T5 Transformer models to summarize financial news with actionable advice.
 Achieved 91.2% ROUGE score and integrated named entity extraction for stock-focused summaries.
@@ -25,6 +26,6 @@ Combined Random Forest, MLP, and SVM in a stacked ensemble for high-accuracy ima
 Basic JWKS Server
 Built a Flask-based JWT authentication server with public/private key rotation and expiry handling.
 📫 Let’s Connect!
-📧 Email: sritanreddy@unt.edu
+📧 Email: sritanreddygangidi@my.unt.edu
 💼 LinkedIn
 💻 GitHub
